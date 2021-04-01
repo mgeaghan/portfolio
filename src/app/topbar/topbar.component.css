@@ -1,0 +1,26 @@
+:host {
+	--h2-margin: 10px;
+	--topbar-height-base: 40px;
+	--topbar-height: calc(var(--topbar-height-base) + 2 * var(--h2-margin))
+}
+
+#top-bar {
+	display: flex;
+	align-items: center;
+	background-color: rgb(24, 25, 26);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	min-height: var(--topbar-height);
+}
+
+#top-bar-spacer {
+	min-height: var(--topbar-height);
+}
+
+h2 {
+	margin-top: var(--h2-margin);
+	margin-bottom: var(--h2-margin);
+	margin-left: 20px;
+}
