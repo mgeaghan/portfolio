@@ -1,0 +1,10 @@
+:host {
+	--h1-font-size: 2em;
+	--title-position: 50vh;
+}
+
+h1 {
+	margin-top: calc(var(--title-position) - (0.5 * var(--h1-font-size)));
+	text-align: center;
+	font-size: var(--h1-font-size);
+}

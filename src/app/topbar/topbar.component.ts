@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NAVLINKS } from '../navlinks';
 
 @Component({
   selector: 'app-topbar',
@@ -8,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class TopbarComponent implements OnInit {
 
   constructor() { }
+
+  navLinks = NAVLINKS;
 
   ngOnInit(): void {
   }
