@@ -5,5 +5,5 @@
 }
 
 h2 {
-	color: rgb(190, 160, 62);
+	color: var(--col-yellow);
 }

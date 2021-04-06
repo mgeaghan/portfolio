@@ -7,6 +7,7 @@ import { ConstructionComponent } from './construction/construction.component';
 import { TopbarComponent } from './topbar/topbar.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { MainComponent } from './main/main.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MainComponent } from './main/main.component';
     ConstructionComponent,
     TopbarComponent,
     AboutMeComponent,
-    MainComponent
+    MainComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,

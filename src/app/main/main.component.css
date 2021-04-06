@@ -1,10 +1,36 @@
 :host {
-	--h1-font-size: 2em;
-	--title-position: 50vh;
+	--h2-font-size: 1.5em;
+	--h2-line-height: 24px;
 }
 
 h1 {
+	--title-position: 50vh;
+	--h1-font-size: 6em;
 	margin-top: calc(var(--title-position) - (0.5 * var(--h1-font-size)));
 	text-align: center;
 	font-size: var(--h1-font-size);
+	font-style: italic;
+	font-family: 'Bradley Hand ITC', 'Brush Script MT', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-style: italic;
+	font-size: var(--h2-font-size);
+	text-align: center;
+}
+
+h2 a,
+h2 a:visited {
+	color: var(--main-color);
+	text-decoration: none;
+	font-size: 1em;
+	line-height: var(--h2-line-height);
+	transition: font-size 0.6s ease-in-out, color 0.6s ease-in-out;
+}
+
+h2 a:hover {
+	color: var(--col-blue);
+	font-size: 1.2em;
+	line-height: var(--h2-line-height);
 }
