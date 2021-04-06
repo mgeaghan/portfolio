@@ -1,0 +1,23 @@
+svg {
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	bottom: 0px;
+	left: calc(50vw - 100px);
+}
+
+path {
+	fill: var(--main-color);
+}
+
+@media screen and (max-height: 610px), screen and (max-width: 800px) and (max-height: 1000px) {
+	svg {
+		position: static;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50px;
+	}
+}

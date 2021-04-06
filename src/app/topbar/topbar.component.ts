@@ -12,6 +12,8 @@ export class TopbarComponent implements OnInit {
 
   navLinks = NAVLINKS;
 
+  show = false;
+
   ngOnInit(): void {
   }
 

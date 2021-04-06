@@ -8,6 +8,9 @@ import { TopbarComponent } from './topbar/topbar.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { MainComponent } from './main/main.component';
 import { TestComponent } from './test/test.component';
+import { TitleComponent } from './title/title.component';
+import { SvgDownArrowsComponent } from './svg-down-arrows/svg-down-arrows.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,11 +19,14 @@ import { TestComponent } from './test/test.component';
     TopbarComponent,
     AboutMeComponent,
     MainComponent,
-    TestComponent
+    TestComponent,
+    TitleComponent,
+    SvgDownArrowsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

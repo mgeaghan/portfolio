@@ -1,8 +1,8 @@
-<div id="top-bar">
+<div *ngIf="show" id="top-bar">
 	<a routerLink="/" class="top-bar-link title-link">{{ title }}</a>
 	<nav id="nav-links">
 		<a *ngFor="let link of navLinks" routerLink="{{ link.path }}" class="top-bar-link nav-link">{{ link.text }}</a>
 	</nav>
 </div>
 
-<div id="top-bar-spacer"></div>
+<div *ngIf="show" id="top-bar-spacer"></div>

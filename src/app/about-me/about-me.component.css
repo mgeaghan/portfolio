@@ -1,0 +1,12 @@
+#about-me-component {
+	min-height: 100vh;
+	background-color: rgb(62, 76, 83);
+}
+
+#about-me-content {
+	padding: 10px;
+}
+
+h2 {
+	text-align: center;
+}
