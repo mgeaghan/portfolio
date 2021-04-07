@@ -12,6 +12,18 @@ h1 {
 	font-family: 'Bradley Hand ITC', 'Brush Script MT', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#title-svg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75vw;
+	padding-top: 40vh;
+}
+
+#title-svg path {
+	fill: var(--main-color);
+}
+
 h2 {
 	--h2-a-line-height: 24px;
 }
@@ -29,4 +41,10 @@ h2 a:hover {
 	color: var(--col-blue);
 	font-size: 1.2em;
 	line-height: var(--h2-a-line-height);
+}
+
+#down-arrow-container {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }

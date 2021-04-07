@@ -11,6 +11,7 @@ import { TestComponent } from './test/test.component';
 import { TitleComponent } from './title/title.component';
 import { SvgDownArrowsComponent } from './svg-down-arrows/svg-down-arrows.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SvgDownArrowComponent } from './svg-down-arrow/svg-down-arrow.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MainComponent,
     TestComponent,
     TitleComponent,
-    SvgDownArrowsComponent
+    SvgDownArrowsComponent,
+    SvgDownArrowComponent
   ],
   imports: [
     BrowserModule,
