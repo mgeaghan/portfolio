@@ -5,6 +5,11 @@
 
 #about-me-content {
 	padding: 10px;
+	width: 50vw;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.2em;
 }
 
 h2 {
@@ -16,12 +21,16 @@ h2 {
 	height: 200px;
 	border-radius: 50%;
 	float: left;
-	margin: 10px 30px 10px 10px;
+	margin: 30px;
 }
 
-@media screen and (max-width: 500px) {
+.about-me-paragraph {
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
 	#profile-pic-1 {
-		width: 50vw;
+		width: 75%;
 		height: auto;
 		float: none;
 		display: block;
@@ -29,8 +38,14 @@ h2 {
 	}
 }
 
+@media screen and (max-width: 600px) {
+	#about-me-content {
+		width: 75vw;
+	}
+}
+
 @media screen and (max-width: 300px) {
 	#profile-pic-1 {
-		width: 75vw;
+		width: 100%;
 	}
 }

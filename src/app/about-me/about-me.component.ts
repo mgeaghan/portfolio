@@ -22,7 +22,6 @@ export class AboutMeComponent implements OnInit {
     .subscribe(data => {
       this.aboutMeText = data;
       this.aboutMeParagraphList = this.paragraphsToList(data);
-      console.log(this.aboutMeParagraphList);
     })
   }
 

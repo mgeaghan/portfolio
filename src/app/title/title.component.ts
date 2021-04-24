@@ -25,10 +25,14 @@ import {
         'true',
         style({
           opacity: '{{ arrowOpacity }}',
+          display: '{{ arrowDisplay }}',
         }),
         { params: { arrowOpacity: 1, arrowDisplay: 'block' }}
       ),
       transition('false => true', [
+        animate('0s'),
+      ]),
+      transition('true => false', [
         animate('0s'),
       ]),
     ])
@@ -65,8 +69,7 @@ export class TitleComponent implements OnInit {
   }
 
   setArrowFade(): void {
-    this.fade = true;
-    this.fade = false;
+    this.fade = !this.fade;
   }
 
   ngOnInit(): void {

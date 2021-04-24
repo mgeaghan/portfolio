@@ -1,2 +1,4 @@
-Hi! I'm Michael. I am a trained scientist turned data analyst.
-I studied biotechnology at the University of Newcastle, Australia, and continued on to earn a PhD in medical biochemistry. It was during my PhD that I developed an interest in bioinformatics and large-scale data analysis and data science.
+Hi! I'm Michael. I'm a trained scientist turned data analyst.
+I studied biotechnology at the University of Newcastle, Australia, and continued on to earn a PhD in medical biochemistry. During my PhD, I worked extensively on bioinformatics analyses of sequencing data, exploring the roles of regulatory molecules on gene expression in psychiatric disorders. Through this work I developed a passion for bioinformatics and large-scale data analysis and data science.
+Since my PhD I have been working as a postdoctoral researcher in statistical genetics, continuing on the themes of my thesis project and investigating the interactions between genetic variation and the regulation of gene expression.
+I'm now working to build a career in data analytics and data science.
