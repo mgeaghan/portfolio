@@ -1,4 +1,4 @@
-Hi! I'm Michael. I'm a trained scientist turned data analyst.
-I studied biotechnology at the University of Newcastle, Australia, and continued on to earn a PhD in medical biochemistry. During my PhD, I worked extensively on bioinformatics analyses of sequencing data, exploring the roles of regulatory molecules on gene expression in psychiatric disorders. Through this work I developed a passion for bioinformatics and large-scale data analysis and data science.
-Since my PhD I have been working as a postdoctoral researcher in statistical genetics, continuing on the themes of my thesis project and investigating the interactions between genetic variation and the regulation of gene expression.
-I'm now working to build a career in data analytics and data science.
+Hi! I'm Michael. I'm a bioinformatician, based in Sydney, Australia.
+I originally studied biotechnology at the University of Newcastle, Australia, and continued on to earn a PhD in medical biochemistry. During my PhD, I worked extensively on bioinformatics analyses of sequencing data, exploring the roles of regulatory molecules on gene expression in psychiatric disorders. Through this work I developed a passion for bioinformatics and large-scale data analysis and data science.
+Following my PhD I spent two years working as a postdoctoral researcher in statistical genetics, continuing on the themes of my thesis project and investigating the interactions between genetic variation and the regulation of gene expression, within the context of psychiatric genetics.
+I now work as a bioinformatician, building pipelines for RNA and whole-genome sequencing analyses. This work is my passion, and I love being at the intersection of biology, software development, and big data analysis.
