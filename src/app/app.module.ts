@@ -13,6 +13,7 @@ import { SvgDownArrowsComponent } from './svg-down-arrows/svg-down-arrows.compon
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SvgDownArrowComponent } from './svg-down-arrow/svg-down-arrow.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LinksComponent } from './links/links.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
     TestComponent,
     TitleComponent,
     SvgDownArrowsComponent,
-    SvgDownArrowComponent
+    SvgDownArrowComponent,
+    LinksComponent,
   ],
   imports: [
     BrowserModule,

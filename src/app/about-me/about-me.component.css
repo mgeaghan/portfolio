@@ -1,6 +1,6 @@
 #about-me-component {
-	min-height: 100vh;
-	background-color: rgb(62, 76, 83);
+	/* min-height: 100vh; */
+	background-color: var(--col-dark-red);
 }
 
 #about-me-content {
